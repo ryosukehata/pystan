@@ -7,7 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from statsmodels.sandbox.regression.predstd import wls_prediction_std
 
-df = pd.read_csv("../RStanBook/chap04/input/data-salary.txt")
+df = pd.read_csv("../../RStanBook/chap04/input/data-salary.txt")
 
 
 sns.scatterplot(data=df, x=df.X, y=df.Y)
